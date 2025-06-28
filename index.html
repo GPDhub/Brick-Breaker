@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ブロック崩し</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div class="score-panel">
+            <div class="score">スコア: <span id="scoreValue">0</span></div>
+        </div>
+        <div class="start-screen">
+            <h1>ブロック崩し</h1>
+            <button id="startGame">ゲーム開始</button>
+        </div>
+        <div class="game-over-screen">
+            <h2>ゲームオーバー</h2>
+            <p>最終スコア: <span id="finalScore">0</span></p>
+            <button id="restartGame">再試行</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

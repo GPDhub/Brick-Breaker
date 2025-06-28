@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game-container {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#gameCanvas {
+    border: 2px solid #fff;
+    background-color: #000;
+}
+
+.score-panel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.score, .lives {
+    margin: 5px 0;
+}
+
+.start-screen, .game-over-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+}
+
+.start-screen h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.game-over-screen h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.block {
+    background: #4CAF50;
+    border-radius: 5px;
+}
+
+.paddle {
+    background: #2196F3;
+    border-radius: 5px;
+}
+
+.ball {
+    background: #FF9800;
+    border-radius: 50%;
+}
+
+#startGame, #restartGame {
+    display: block;
+    margin: 10px auto;
+}
