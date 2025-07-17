@@ -1,6 +1,7 @@
 # 🎮 Brick Breaker Game
 
 モダンなデザインのブロック崩しゲーム。HTML5 Canvasを使用して作成された、レスポンシブ対応のブラウザゲームです。
+https://gpdhub.github.io/Brick-Breaker/
 
 ## 🌟 特徴
 
